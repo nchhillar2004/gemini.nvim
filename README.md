@@ -1,5 +1,5 @@
 # Gemini.nvim
-A dark Neovim colorscheme.
+a minimal, dark theme for neovim inspired from the syntax highlight used by gemini.google.com in code blocks.
 
 ## Installation
 
