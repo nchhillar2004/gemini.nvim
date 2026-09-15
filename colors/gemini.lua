@@ -44,7 +44,7 @@ hl("Operator", { fg = c.operator })
 hl("PreProc", { fg = c.enum })
 hl("Type", { fg = c.type })
 hl("Structure", { fg = c.keyword })
-hl("Special", { fg = c.operator })
+hl("Special", { fg = c.keyword })
 
 hl("@keyword", { fg = c.keyword, bold = true })
 hl("@keyword.function", { fg = c.keyword })
@@ -76,6 +76,12 @@ hl("@lsp.typemod.class.globalScope.c", { fg = c.enum })
 hl("@lsp.typemod.enum.globalScope.c", { fg = c.enum })
 hl("@lsp.typemod.macro.globalScope.c", { fg = c.enum })
 hl("@lsp.typemod.enumMember.readonly.c", { fg = c.enum })
+
+-- TS/ TSX
+hl("@type.tsx", { fg = c.enum })
+hl("@tag.builtin.tsx", { fg = c.keyword })
+hl("@_jsx_attribute", { fg = c.property })
+hl("@lsp.typemod.property.declaration.typescript", { fg = c.fg })
 
 -- NvimTree
 hl("NvimTreeFolderName", { fg = c.tree })
